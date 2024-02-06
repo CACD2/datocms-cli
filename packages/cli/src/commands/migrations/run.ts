@@ -61,7 +61,7 @@ export default class Command extends CmaClientCommand<typeof Command.flags> {
     runMigrationScripts: string[];
   }> {
     this.requireDatoProfileConfig();
-    this.log('Run from CACD2 fork');
+    this.log('Run from CACD2 public fork');
 
     const preference = this.datoProfileConfig?.migrations;
 
