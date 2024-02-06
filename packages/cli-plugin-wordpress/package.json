@@ -1,5 +1,5 @@
 {
-  "name": "@datocms/cli-plugin-wordpress",
+  "name": "@cacd2/datocms-cli-plugin-wordpress",
   "version": "1.3.0",
   "description": "DatoCMS CLI plugin to import WordPress sites",
   "author": "DatoCMS <support@datocms.com>",

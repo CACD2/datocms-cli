@@ -1,5 +1,5 @@
 {
-  "name": "@datocms/cli-utils",
+  "name": "@cacd2/datocms-cli-utils",
   "version": "1.3.0",
   "description": "Utils for DatoCMS CLI",
   "author": "Stefano Verna <s.verna@datocms.com>",
