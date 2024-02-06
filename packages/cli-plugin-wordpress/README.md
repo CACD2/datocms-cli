@@ -26,17 +26,17 @@ $ datocms wordpress:import --help
 # Commands
 
 <!-- commands -->
-* [`@datocms/cli-plugin-wordpress wordpress:import`](#datocmscli-plugin-wordpress-wordpressimport)
+* [`@cacd2/datocms-cli-plugin-wordpress wordpress:import`](#cacd2datocms-cli-plugin-wordpress-wordpressimport)
 
-## `@datocms/cli-plugin-wordpress wordpress:import`
+## `@cacd2/datocms-cli-plugin-wordpress wordpress:import`
 
 Imports a WordPress site into a DatoCMS project
 
 ```
 USAGE
-  $ @datocms/cli-plugin-wordpress wordpress:import --wp-username <value> --wp-password <value> [--json] [--config-file
-    <value>] [--profile <value>] [--api-token <value>] [--log-level NONE|BASIC|BODY|BODY_AND_HEADERS] [--wp-json-api-url
-    <value> | --wp-url <value>] [--autoconfirm] [--ignore-errors] [--concurrency <value>]
+  $ @cacd2/datocms-cli-plugin-wordpress wordpress:import --wp-username <value> --wp-password <value> [--json]
+    [--config-file <value>] [--profile <value>] [--api-token <value>] [--log-level NONE|BASIC|BODY|BODY_AND_HEADERS]
+    [--wp-json-api-url <value> | --wp-url <value>] [--autoconfirm] [--ignore-errors] [--concurrency <value>]
 
 FLAGS
   --api-token=<value>                             Specify a custom API key to access a DatoCMS project
@@ -62,7 +62,7 @@ DESCRIPTION
   Imports a WordPress site into a DatoCMS project
 ```
 
-_See code: [lib/commands/wordpress/import.js](https://github.com/datocms/cli/blob/v1.3.0/packages/cli-plugin-wordpress/lib/commands/wordpress/import.js)_
+_See code: [lib/commands/wordpress/import.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli-plugin-wordpress/lib/commands/wordpress/import.js)_
 <!-- commandsstop -->
 
 # Development

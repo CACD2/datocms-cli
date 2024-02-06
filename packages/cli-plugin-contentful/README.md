@@ -27,18 +27,18 @@ $ datocms contentful:import --help
 # Commands
 
 <!-- commands -->
-* [`@datocms/cli-plugin-contentful contentful:import`](#datocmscli-plugin-contentful-contentfulimport)
+* [`@cacd2/datocms-cli-plugin-contentful contentful:import`](#cacd2datocms-cli-plugin-contentful-contentfulimport)
 
-## `@datocms/cli-plugin-contentful contentful:import`
+## `@cacd2/datocms-cli-plugin-contentful contentful:import`
 
 Import a Contentful project into a DatoCMS project
 
 ```
 USAGE
-  $ @datocms/cli-plugin-contentful contentful:import [--json] [--config-file <value>] [--profile <value>] [--api-token
-    <value>] [--log-level NONE|BASIC|BODY|BODY_AND_HEADERS] [--contentful-token <value>] [--contentful-space-id <value>]
-    [--contentful-environment <value>] [--autoconfirm] [--ignore-errors] [--skip-content] [--only-content-type <value>]
-    [--concurrency <value>]
+  $ @cacd2/datocms-cli-plugin-contentful contentful:import [--json] [--config-file <value>] [--profile <value>]
+    [--api-token <value>] [--log-level NONE|BASIC|BODY|BODY_AND_HEADERS] [--contentful-token <value>]
+    [--contentful-space-id <value>] [--contentful-environment <value>] [--autoconfirm] [--ignore-errors]
+    [--skip-content] [--only-content-type <value>] [--concurrency <value>]
 
 FLAGS
   --api-token=<value>                             Specify a custom API key to access a DatoCMS project
@@ -67,7 +67,7 @@ DESCRIPTION
   Import a Contentful project into a DatoCMS project
 ```
 
-_See code: [lib/commands/contentful/import.js](https://github.com/datocms/cli/blob/v1.3.0/packages/cli-plugin-contentful/lib/commands/contentful/import.js)_
+_See code: [lib/commands/contentful/import.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli-plugin-contentful/lib/commands/contentful/import.js)_
 <!-- commandsstop -->
 
 # Test
