@@ -3,9 +3,10 @@
 DatoCMS CLI tool for managing DatoCMS projects, environments and schemas.
 
 <!-- toc -->
-* [DatoCMS CLI](#datocms-cli)
-* [Usage](#usage)
-* [Commands](#commands)
+
+- [DatoCMS CLI](#datocms-cli)
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
 
 <br /><br />
@@ -17,13 +18,13 @@ DatoCMS CLI tool for managing DatoCMS projects, environments and schemas.
 # Usage
 
 ```sh-session
-$ npm install -g @datocms/cli
+$ npm install -g @cacd2/datocms-cli
 
 $ datocms COMMAND
 running command...
 
 $ datocms (--version)
-@datocms/cli/0.1.6 darwin-x64 node-v16.20.0
+@cacd2/datocms-cli/0.1.6 darwin-x64 node-v16.20.0
 
 $ datocms --help [COMMAND]
 USAGE
@@ -34,30 +35,31 @@ USAGE
 # Commands
 
 <!-- commands -->
-* [`datocms autocomplete [SHELL]`](#datocms-autocomplete-shell)
-* [`datocms environments:destroy ENVIRONMENT_ID`](#datocms-environmentsdestroy-environment_id)
-* [`datocms environments:fork SOURCE_ENVIRONMENT_ID NEW_ENVIRONMENT_ID`](#datocms-environmentsfork-source_environment_id-new_environment_id)
-* [`datocms environments:index`](#datocms-environmentsindex)
-* [`datocms environments:list`](#datocms-environmentslist)
-* [`datocms environments:primary`](#datocms-environmentsprimary)
-* [`datocms environments:promote ENVIRONMENT_ID`](#datocms-environmentspromote-environment_id)
-* [`datocms help [COMMAND]`](#datocms-help-command)
-* [`datocms maintenance:off`](#datocms-maintenanceoff)
-* [`datocms maintenance:on`](#datocms-maintenanceon)
-* [`datocms migrations:new NAME`](#datocms-migrationsnew-name)
-* [`datocms migrations:run`](#datocms-migrationsrun)
-* [`datocms plugins`](#datocms-plugins)
-* [`datocms plugins:install PLUGIN...`](#datocms-pluginsinstall-plugin)
-* [`datocms plugins:available`](#datocms-pluginsavailable)
-* [`datocms plugins:inspect PLUGIN...`](#datocms-pluginsinspect-plugin)
-* [`datocms plugins:install PLUGIN...`](#datocms-pluginsinstall-plugin-1)
-* [`datocms plugins:link PLUGIN`](#datocms-pluginslink-plugin)
-* [`datocms plugins:uninstall PLUGIN...`](#datocms-pluginsuninstall-plugin)
-* [`datocms plugins:uninstall PLUGIN...`](#datocms-pluginsuninstall-plugin-1)
-* [`datocms plugins:uninstall PLUGIN...`](#datocms-pluginsuninstall-plugin-2)
-* [`datocms plugins:update`](#datocms-pluginsupdate)
-* [`datocms profile:remove PROFILE_ID`](#datocms-profileremove-profile_id)
-* [`datocms profile:set PROFILE_ID`](#datocms-profileset-profile_id)
+
+- [`datocms autocomplete [SHELL]`](#datocms-autocomplete-shell)
+- [`datocms environments:destroy ENVIRONMENT_ID`](#datocms-environmentsdestroy-environment_id)
+- [`datocms environments:fork SOURCE_ENVIRONMENT_ID NEW_ENVIRONMENT_ID`](#datocms-environmentsfork-source_environment_id-new_environment_id)
+- [`datocms environments:index`](#datocms-environmentsindex)
+- [`datocms environments:list`](#datocms-environmentslist)
+- [`datocms environments:primary`](#datocms-environmentsprimary)
+- [`datocms environments:promote ENVIRONMENT_ID`](#datocms-environmentspromote-environment_id)
+- [`datocms help [COMMAND]`](#datocms-help-command)
+- [`datocms maintenance:off`](#datocms-maintenanceoff)
+- [`datocms maintenance:on`](#datocms-maintenanceon)
+- [`datocms migrations:new NAME`](#datocms-migrationsnew-name)
+- [`datocms migrations:run`](#datocms-migrationsrun)
+- [`datocms plugins`](#datocms-plugins)
+- [`datocms plugins:install PLUGIN...`](#datocms-pluginsinstall-plugin)
+- [`datocms plugins:available`](#datocms-pluginsavailable)
+- [`datocms plugins:inspect PLUGIN...`](#datocms-pluginsinspect-plugin)
+- [`datocms plugins:install PLUGIN...`](#datocms-pluginsinstall-plugin-1)
+- [`datocms plugins:link PLUGIN`](#datocms-pluginslink-plugin)
+- [`datocms plugins:uninstall PLUGIN...`](#datocms-pluginsuninstall-plugin)
+- [`datocms plugins:uninstall PLUGIN...`](#datocms-pluginsuninstall-plugin-1)
+- [`datocms plugins:uninstall PLUGIN...`](#datocms-pluginsuninstall-plugin-2)
+- [`datocms plugins:update`](#datocms-pluginsupdate)
+- [`datocms profile:remove PROFILE_ID`](#datocms-profileremove-profile_id)
+- [`datocms profile:set PROFILE_ID`](#datocms-profileset-profile_id)
 
 ## `datocms autocomplete [SHELL]`
 
@@ -480,7 +482,7 @@ ALIASES
   $ datocms plugins:add
 
 EXAMPLES
-  $ datocms plugins:install myplugin 
+  $ datocms plugins:install myplugin
 
   $ datocms plugins:install https://github.com/someuser/someplugin
 
@@ -571,7 +573,7 @@ ALIASES
   $ datocms plugins:add
 
 EXAMPLES
-  $ datocms plugins:install myplugin 
+  $ datocms plugins:install myplugin
 
   $ datocms plugins:install https://github.com/someuser/someplugin
 
@@ -750,4 +752,5 @@ DESCRIPTION
 ```
 
 _See code: [lib/commands/profile/set.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli/lib/commands/profile/set.js)_
+
 <!-- commandsstop -->
