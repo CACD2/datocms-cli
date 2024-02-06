@@ -3,10 +3,9 @@
 DatoCMS CLI tool for managing DatoCMS projects, environments and schemas.
 
 <!-- toc -->
-
-- [DatoCMS CLI](#datocms-cli)
-- [Usage](#usage)
-- [Commands](#commands)
+* [DatoCMS CLI](#datocms-cli)
+* [Usage](#usage)
+* [Commands](#commands)
 <!-- tocstop -->
 
 <br /><br />
@@ -35,31 +34,30 @@ USAGE
 # Commands
 
 <!-- commands -->
-
-- [`datocms autocomplete [SHELL]`](#datocms-autocomplete-shell)
-- [`datocms environments:destroy ENVIRONMENT_ID`](#datocms-environmentsdestroy-environment_id)
-- [`datocms environments:fork SOURCE_ENVIRONMENT_ID NEW_ENVIRONMENT_ID`](#datocms-environmentsfork-source_environment_id-new_environment_id)
-- [`datocms environments:index`](#datocms-environmentsindex)
-- [`datocms environments:list`](#datocms-environmentslist)
-- [`datocms environments:primary`](#datocms-environmentsprimary)
-- [`datocms environments:promote ENVIRONMENT_ID`](#datocms-environmentspromote-environment_id)
-- [`datocms help [COMMAND]`](#datocms-help-command)
-- [`datocms maintenance:off`](#datocms-maintenanceoff)
-- [`datocms maintenance:on`](#datocms-maintenanceon)
-- [`datocms migrations:new NAME`](#datocms-migrationsnew-name)
-- [`datocms migrations:run`](#datocms-migrationsrun)
-- [`datocms plugins`](#datocms-plugins)
-- [`datocms plugins:install PLUGIN...`](#datocms-pluginsinstall-plugin)
-- [`datocms plugins:available`](#datocms-pluginsavailable)
-- [`datocms plugins:inspect PLUGIN...`](#datocms-pluginsinspect-plugin)
-- [`datocms plugins:install PLUGIN...`](#datocms-pluginsinstall-plugin-1)
-- [`datocms plugins:link PLUGIN`](#datocms-pluginslink-plugin)
-- [`datocms plugins:uninstall PLUGIN...`](#datocms-pluginsuninstall-plugin)
-- [`datocms plugins:uninstall PLUGIN...`](#datocms-pluginsuninstall-plugin-1)
-- [`datocms plugins:uninstall PLUGIN...`](#datocms-pluginsuninstall-plugin-2)
-- [`datocms plugins:update`](#datocms-pluginsupdate)
-- [`datocms profile:remove PROFILE_ID`](#datocms-profileremove-profile_id)
-- [`datocms profile:set PROFILE_ID`](#datocms-profileset-profile_id)
+* [`datocms autocomplete [SHELL]`](#datocms-autocomplete-shell)
+* [`datocms environments:destroy ENVIRONMENT_ID`](#datocms-environmentsdestroy-environment_id)
+* [`datocms environments:fork SOURCE_ENVIRONMENT_ID NEW_ENVIRONMENT_ID`](#datocms-environmentsfork-source_environment_id-new_environment_id)
+* [`datocms environments:index`](#datocms-environmentsindex)
+* [`datocms environments:list`](#datocms-environmentslist)
+* [`datocms environments:primary`](#datocms-environmentsprimary)
+* [`datocms environments:promote ENVIRONMENT_ID`](#datocms-environmentspromote-environment_id)
+* [`datocms help [COMMAND]`](#datocms-help-command)
+* [`datocms maintenance:off`](#datocms-maintenanceoff)
+* [`datocms maintenance:on`](#datocms-maintenanceon)
+* [`datocms migrations:new NAME`](#datocms-migrationsnew-name)
+* [`datocms migrations:run`](#datocms-migrationsrun)
+* [`datocms plugins`](#datocms-plugins)
+* [`datocms plugins:install PLUGIN...`](#datocms-pluginsinstall-plugin)
+* [`datocms plugins:available`](#datocms-pluginsavailable)
+* [`datocms plugins:inspect PLUGIN...`](#datocms-pluginsinspect-plugin)
+* [`datocms plugins:install PLUGIN...`](#datocms-pluginsinstall-plugin-1)
+* [`datocms plugins:link PLUGIN`](#datocms-pluginslink-plugin)
+* [`datocms plugins:uninstall PLUGIN...`](#datocms-pluginsuninstall-plugin)
+* [`datocms plugins:uninstall PLUGIN...`](#datocms-pluginsuninstall-plugin-1)
+* [`datocms plugins:uninstall PLUGIN...`](#datocms-pluginsuninstall-plugin-2)
+* [`datocms plugins:update`](#datocms-pluginsupdate)
+* [`datocms profile:remove PROFILE_ID`](#datocms-profileremove-profile_id)
+* [`datocms profile:set PROFILE_ID`](#datocms-profileset-profile_id)
 
 ## `datocms autocomplete [SHELL]`
 
@@ -115,7 +113,7 @@ DESCRIPTION
   Destroys a sandbox environment
 ```
 
-_See code: [lib/commands/environments/destroy.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli/lib/commands/environments/destroy.js)_
+_See code: [lib/commands/environments/destroy.js](https://github.com/datocms/cli/blob/v1.3.5/packages/cli/lib/commands/environments/destroy.js)_
 
 ## `datocms environments:fork SOURCE_ENVIRONMENT_ID NEW_ENVIRONMENT_ID`
 
@@ -147,7 +145,7 @@ DESCRIPTION
   Creates a new sandbox environment by forking an existing one
 ```
 
-_See code: [lib/commands/environments/fork.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli/lib/commands/environments/fork.js)_
+_See code: [lib/commands/environments/fork.js](https://github.com/datocms/cli/blob/v1.3.5/packages/cli/lib/commands/environments/fork.js)_
 
 ## `datocms environments:index`
 
@@ -221,7 +219,7 @@ ALIASES
   $ datocms environments:list
 ```
 
-_See code: [lib/commands/environments/list.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli/lib/commands/environments/list.js)_
+_See code: [lib/commands/environments/list.js](https://github.com/datocms/cli/blob/v1.3.5/packages/cli/lib/commands/environments/list.js)_
 
 ## `datocms environments:primary`
 
@@ -245,7 +243,7 @@ DESCRIPTION
   Returns the name the primary environment of a project
 ```
 
-_See code: [lib/commands/environments/primary.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli/lib/commands/environments/primary.js)_
+_See code: [lib/commands/environments/primary.js](https://github.com/datocms/cli/blob/v1.3.5/packages/cli/lib/commands/environments/primary.js)_
 
 ## `datocms environments:promote ENVIRONMENT_ID`
 
@@ -272,7 +270,7 @@ DESCRIPTION
   Promotes a sandbox environment to primary
 ```
 
-_See code: [lib/commands/environments/promote.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli/lib/commands/environments/promote.js)_
+_See code: [lib/commands/environments/promote.js](https://github.com/datocms/cli/blob/v1.3.5/packages/cli/lib/commands/environments/promote.js)_
 
 ## `datocms help [COMMAND]`
 
@@ -316,7 +314,7 @@ DESCRIPTION
   Take a project out of maintenance mode
 ```
 
-_See code: [lib/commands/maintenance/off.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli/lib/commands/maintenance/off.js)_
+_See code: [lib/commands/maintenance/off.js](https://github.com/datocms/cli/blob/v1.3.5/packages/cli/lib/commands/maintenance/off.js)_
 
 ## `datocms maintenance:on`
 
@@ -342,7 +340,7 @@ DESCRIPTION
   Put a project in maintenance mode
 ```
 
-_See code: [lib/commands/maintenance/on.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli/lib/commands/maintenance/on.js)_
+_See code: [lib/commands/maintenance/on.js](https://github.com/datocms/cli/blob/v1.3.5/packages/cli/lib/commands/maintenance/on.js)_
 
 ## `datocms migrations:new NAME`
 
@@ -392,7 +390,7 @@ DESCRIPTION
   Create a new migration script
 ```
 
-_See code: [lib/commands/migrations/new.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli/lib/commands/migrations/new.js)_
+_See code: [lib/commands/migrations/new.js](https://github.com/datocms/cli/blob/v1.3.5/packages/cli/lib/commands/migrations/new.js)_
 
 ## `datocms migrations:run`
 
@@ -429,7 +427,7 @@ DESCRIPTION
   Run migration scripts that have not run yet
 ```
 
-_See code: [lib/commands/migrations/run.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli/lib/commands/migrations/run.js)_
+_See code: [lib/commands/migrations/run.js](https://github.com/datocms/cli/blob/v1.3.5/packages/cli/lib/commands/migrations/run.js)_
 
 ## `datocms plugins`
 
@@ -482,7 +480,7 @@ ALIASES
   $ datocms plugins:add
 
 EXAMPLES
-  $ datocms plugins:install myplugin
+  $ datocms plugins:install myplugin 
 
   $ datocms plugins:install https://github.com/someuser/someplugin
 
@@ -516,7 +514,7 @@ DESCRIPTION
   Lists official DatoCMS CLI plugins
 ```
 
-_See code: [lib/commands/plugins/available.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli/lib/commands/plugins/available.js)_
+_See code: [lib/commands/plugins/available.js](https://github.com/datocms/cli/blob/v1.3.5/packages/cli/lib/commands/plugins/available.js)_
 
 ## `datocms plugins:inspect PLUGIN...`
 
@@ -573,7 +571,7 @@ ALIASES
   $ datocms plugins:add
 
 EXAMPLES
-  $ datocms plugins:install myplugin
+  $ datocms plugins:install myplugin 
 
   $ datocms plugins:install https://github.com/someuser/someplugin
 
@@ -721,7 +719,7 @@ DESCRIPTION
   Remove a profile from DatoCMS config file
 ```
 
-_See code: [lib/commands/profile/remove.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli/lib/commands/profile/remove.js)_
+_See code: [lib/commands/profile/remove.js](https://github.com/datocms/cli/blob/v1.3.5/packages/cli/lib/commands/profile/remove.js)_
 
 ## `datocms profile:set PROFILE_ID`
 
@@ -751,6 +749,5 @@ DESCRIPTION
   Add/update profile configuration in DatoCMS config file
 ```
 
-_See code: [lib/commands/profile/set.js](https://github.com/datocms/cli/blob/v1.3.4/packages/cli/lib/commands/profile/set.js)_
-
+_See code: [lib/commands/profile/set.js](https://github.com/datocms/cli/blob/v1.3.5/packages/cli/lib/commands/profile/set.js)_
 <!-- commandsstop -->
